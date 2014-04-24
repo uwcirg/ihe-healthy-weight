@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : externalIdentifiers.xml
+    Created on : October 20, 2004, 2:51 PM
+    Author     : bill
+    Description:
+        External identifiers used in XDS.
+-->
+
+<codes>
+    <code value="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" name="XDSSubmissionSet.sourceId"/>
+    <code value="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" name="XDSDocumentEntry.practiceSettingCode"/>
+    <code value="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" name="XDSSubmissionSet.uniqueId"/>
+    <code value="urn:uuid:4b052cba-b03b-4233-8b27-e8d5e3f8d3e4" name="XDSSubmissionSet.id"/>
+    <code value="urn:uuid:f64ffdf0-4b97-4e06-b79f-a52b38ec2f8a" name="XDSFolder.patientId"/>
+    <code value="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" name="XDSDocumentEntry.typeCode"/>
+    <code value="urn:uuid:75df8f67-9973-4fbe-a900-df66cefecc5a" name="XDSFolder.uniqueId"/>
+    <code value="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" name="XDSDocumentEntry.patientId"/>
+    <code value="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" name="XDSDocumentEntry.uniqueId"/>
+    <code value="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" name="TypeCode"/>
+    <code value="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" name="PracticeSettingCode"/>
+    <code value="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" name="HealthCareFacilityTypeCode"/>
+    <code value="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" name="FormatCode"/>
+    <code value="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" name="ConfidentialityCode"/>
+    <code value="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" name="ClassCode"/>
+</codes>

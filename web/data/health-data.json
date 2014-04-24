@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "cat": "Female - Overweight",
+            "counts": [4,6,7],
+            "stack": "Female"
+        },
+        {
+            "cat": "Female - Normal",
+            "counts": [9,2,5],
+            "stack": "Female"
+        },
+        {
+            "cat": "Female - Underweight",
+            "counts": [8,9,7],
+            "stack": "Female"
+        },
+        {
+            "cat": "Male - Overweight",
+            "counts": [9,5,4],
+            "stack": "Male"
+        },
+        {
+            "cat": "Male - Normal",
+            "counts": [10,4,7],
+            "stack": "Male"
+        },
+        {
+            "cat": "Male - Underweight",
+            "counts": [6,7,5],
+            "stack": "Male"
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+<project name="ihe2009" basedir="." default="deploy">
+	
+	<property name="app" value="xds" />
+	<property name="build.dir" value="./build" />
+    <property name="conf.dir" value="./conf" />
+	<property name="deploy.dir" value="./deploy" />
+	<property name="lib.dir" value="./lib" />
+	<property name="shared.lib.dir" value="./shared" />
+	<property name="src.dir" value="./src" />
+    <property name="catalina.home" value="/opt/tomcat" />
+    
+    <path id="classpath">
+        <fileset dir="${lib.dir}">
+            <include name="*.jar" />
+        </fileset>
+        <fileset dir="${shared.lib.dir}">
+            <include name="*.jar" />
+        </fileset>
+        <pathelement path="${build.dir}" />
+    </path>
+
+    <target name="compile" depends="prepare">
+        <javac srcdir="${src.dir}"
+               destdir="${build.dir}" 
+               fork="${javac.fork}">
+            <classpath refid="classpath" />
+        </javac>
+    </target>
+
+    <target name="jar" depends="compile">
+             <!-- excludes="**/*Test.class" -->
+		<jar basedir="${build.dir}" destfile="${deploy.dir}/${app}.jar" 
+
+        />
+
+    </target>
+
+	<target name="deploy" depends="clean,jar">
+        <property name="web.inf" value="${catalina.home}/webapps/${app}/WEB-INF" />
+
+        <copy todir="${web.inf}">
+            <fileset dir="./tomcat">
+                <include name="web.xml" />
+            </fileset>
+        </copy>
+
+		<copy todir="${web.inf}/classes">
+			<fileset dir="${conf.dir}"/>
+		</copy>
+
+		<copy todir="${web.inf}/lib" file="${deploy.dir}/${app}.jar" />
+
+		<copy todir="${web.inf}/lib">
+            <fileset dir="${lib.dir}">
+                <include name="*.jar" />
+            </fileset>
+        </copy>
+
+        <copy todir="${catalina.home}/shared/lib">
+            <fileset dir="${shared.lib.dir}">
+                <include name="*.jar" />
+            </fileset>
+        </copy>
+
+	</target>
+	
+	<target name = "clean">
+
+		<delete dir="${build.dir}" />
+		<delete dir="${deploy.dir}" />
+
+	</target>
+	
+	<target name="prepare">
+	
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${deploy.dir}" />
+
+	</target>
+
+</project>

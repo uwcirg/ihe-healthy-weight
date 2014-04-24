@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Codes xmlns="http://com.ibm.ihii.configuration.xdscodes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://com.ibm.ihii.configuration.xdscodes XDSCodes.xsd ">
+	<CodeType name="eventCodeList" classScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4">
+		<Code codingScheme="ISOLATE_TYPE_SNOMED" code="27268008" display="Salmonella"/>
+		<Code codingScheme="SNOMED-CT" code="27268008" display="Salmonella"/>
+		<Code codingScheme="SNOMED-CT" code="110378009" display="Salmonella enterica"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella enterica, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="398426003" display="Salmonella enterica group A"/>
+		<Code codingScheme="SNOMED-CT" code="79128009" display="Salmonella paratyphi A"/>
+		<Code codingScheme="SNOMED-CT" code="398426003" display="Salmonella group A, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="398467008" display="Salmonella enterica group B"/>
+		<Code codingScheme="SNOMED-CT" code="85908006" display="Salmonella paratyphi B"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium R3 atyp"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium R6"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium R6 atyp"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium R9"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium R9 atyp"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium R12"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium R13"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium 2(4+)"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium group 1"/>
+		<Code codingScheme="SNOMED-CT" code="50136005" display="Salmonella typhimurium group 2"/>
+		<Code codingScheme="SNOMED-CT" code="71865006" display="Salmonella heidelberg"/>
+		<Code codingScheme="SNOMED-CT" code="51488004" display="Salmonella abortusequi"/>
+		<Code codingScheme="SNOMED-CT" code="37091006" display="Salmonella derby"/>
+		<Code codingScheme="SNOMED-CT" code="63396002" display="Salmonella reading"/>
+		<Code codingScheme="SNOMED-CT" code="45651006" display="Salmonella schwarzengrund"/>
+		<Code codingScheme="SNOMED-CT" code="88091007" display="Salmonella stanley"/>
+		<Code codingScheme="SNOMED-CT" code="16888008" display="Salmonella brandenburg"/>
+		<Code codingScheme="SNOMED-CT" code="12278000" display="Salmonella indiana"/>
+		<Code codingScheme="SNOMED-CT" code="80627004" display="Salmonella agona"/>
+		<Code codingScheme="SNOMED-CT" code="84106001" display="Salmonella banana"/>
+		<Code codingScheme="SNOMED-CT" code="82364007" display="Salmonella bredeney"/>
+		<Code codingScheme="SNOMED-CT" code="128388007" display="Salmonella java"/>
+		<Code codingScheme="SNOMED-CT" code="2820001" display="Salmonella saintpaul"/>
+		<Code codingScheme="SNOMED-CT" code="40369005" display="Salmonella abony"/>
+		<Code codingScheme="SNOMED-CT" code="7031002" display="Salmonella california"/>
+		<Code codingScheme="SNOMED-CT" code="4687003" display="Salmonella essen"/>
+		<Code codingScheme="SNOMED-CT" code="88255008" display="Salmonella haifa"/>
+		<Code codingScheme="SNOMED-CT" code="42648005" display="Salmonella shubra"/>
+		<Code codingScheme="SNOMED-CT" code="5461002" display="Salmonella chester"/>
+		<Code codingScheme="SNOMED-CT" code="11901002" display="Salmonella kiambu"/>
+		<Code codingScheme="SNOMED-CT" code="24951009" display="Salmonella wagenia"/>
+		<Code codingScheme="SNOMED-CT" code="42410007" display="Salmonella duisburg"/>
+		<Code codingScheme="SNOMED-CT" code="51008005" display="Salmonella kingston"/>
+		<Code codingScheme="SNOMED-CT" code="370578006" display="Salmonella typhimurium var copenhagen"/>
+		<Code codingScheme="SNOMED-CT" code="398467008" display="Salmonella 4,12;-;-"/>
+		<Code codingScheme="SNOMED-CT" code="398467008" display="Salmonella 4,12;rough"/>
+		<Code codingScheme="SNOMED-CT" code="398467008" display="Salmonella 4,12;z;-"/>
+		<Code codingScheme="SNOMED-CT" code="398438007" display="Salmonella II sofia"/>
+		<Code codingScheme="SNOMED-CT" code="398467008" display="Salmonella group B, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="116048001" display="Salmonella enterica group C"/>
+		<Code codingScheme="SNOMED-CT" code="52511000" display="Salmonella amersfoort"/>
+		<Code codingScheme="SNOMED-CT" code="114534008" display="Salmonella amersfoort var 14+"/>
+		<Code codingScheme="SNOMED-CT" code="80268001" display="Salmonella montevideo"/>
+		<Code codingScheme="SNOMED-CT" code="5929008" display="Salmonella virchow"/>
+		<Code codingScheme="SNOMED-CT" code="41176000" display="Salmonella nigeria"/>
+		<Code codingScheme="SNOMED-CT" code="39045008" display="Salmonella eimsbuettel"/>
+		<Code codingScheme="SNOMED-CT" code="46667007" display="Salmonella oranienburg"/>
+		<Code codingScheme="SNOMED-CT" code="114536005" display="Salmonella oranienburg var 14+"/>
+		<Code codingScheme="SNOMED-CT" code="82071007" display="Salmonella infantis"/>
+		<Code codingScheme="SNOMED-CT" code="8044005" display="Salmonella bareilly"/>
+		<Code codingScheme="SNOMED-CT" code="32488009" display="Salmonella paratyphi C"/>
+		<Code codingScheme="SNOMED-CT" code="80232006" display="Salmonella choleraesuis"/>
+		<Code codingScheme="SNOMED-CT" code="27543005" display="Salmonella afula"/>
+		<Code codingScheme="SNOMED-CT" code="35225001" display="Salmonella braenderup"/>
+		<Code codingScheme="SNOMED-CT" code="34153004" display="Salmonella brazzaville"/>
+		<Code codingScheme="SNOMED-CT" code="80014004" display="Salmonella concord"/>
+		<Code codingScheme="SNOMED-CT" code="55274005" display="Salmonella edinburg"/>
+		<Code codingScheme="SNOMED-CT" code="4614004" display="Salmonella galiema"/>
+		<Code codingScheme="SNOMED-CT" code="158005" display="Salmonella irumu"/>
+		<Code codingScheme="SNOMED-CT" code="1812001" display="Salmonella jerusalem"/>
+		<Code codingScheme="SNOMED-CT" code="8307000" display="Salmonella lille"/>
+		<Code codingScheme="SNOMED-CT" code="114538006" display="Salmonella lille var 14+"/>
+		<Code codingScheme="SNOMED-CT" code="9506004" display="Salmonella mbandaka"/>
+		<Code codingScheme="SNOMED-CT" code="303216008" display="Salmonella mbandaka var 25"/>
+		<Code codingScheme="SNOMED-CT" code="89032008" display="Salmonella isangi"/>
+		<Code codingScheme="SNOMED-CT" code="29019008" display="Salmonella singapore"/>
+		<Code codingScheme="SNOMED-CT" code="51985007" display="Salmonella rissen"/>
+		<Code codingScheme="SNOMED-CT" code="114535009" display="Salmonella rissen var 14+"/>
+		<Code codingScheme="SNOMED-CT" code="55290005" display="Salmonella bonn"/>
+		<Code codingScheme="SNOMED-CT" code="31517006" display="Salmonella richmond"/>
+		<Code codingScheme="SNOMED-CT" code="79153007" display="Salmonella tennessee"/>
+		<Code codingScheme="SNOMED-CT" code="67210008" display="Salmonella ohio"/>
+		<Code codingScheme="SNOMED-CT" code="114533002" display="Salmonella ohio var 14+"/>
+		<Code codingScheme="SNOMED-CT" code="8544001" display="Salmonella potsdam"/>
+		<Code codingScheme="SNOMED-CT" code="5325008" display="Salmonella menden"/>
+		<Code codingScheme="SNOMED-CT" code="398593004" display="Salmonella 6,7;-;-"/>
+		<Code codingScheme="SNOMED-CT" code="398593004" display="Salmonella 6,7;r;-"/>
+		<Code codingScheme="SNOMED-CT" code="4361005" display="Salmonella thompson"/>
+		<Code codingScheme="SNOMED-CT" code="398593004" display="Salmonella group C1, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="56077000" display="Salmonella newport"/>
+		<Code codingScheme="SNOMED-CT" code="77584005" display="Salmonella muenchen"/>
+		<Code codingScheme="SNOMED-CT" code="6327006" display="Salmonella glostrup"/>
+		<Code codingScheme="SNOMED-CT" code="57786005" display="Salmonella takoradi"/>
+		<Code codingScheme="SNOMED-CT" code="112296008" display="Salmonella virginia"/>
+		<Code codingScheme="SNOMED-CT" code="77842008" display="Salmonella amherstiana"/>
+		<Code codingScheme="SNOMED-CT" code="8455004" display="Salmonella kentucky"/>
+		<Code codingScheme="SNOMED-CT" code="53814008" display="Salmonella emek"/>
+		<Code codingScheme="SNOMED-CT" code="49491006" display="Salmonella hadar"/>
+		<Code codingScheme="SNOMED-CT" code="77576006" display="Salmonella duesseldorf"/>
+		<Code codingScheme="SNOMED-CT" code="53684004" display="Salmonella blockley"/>
+		<Code codingScheme="SNOMED-CT" code="49491006" display="Salmonella hadar"/>
+		<Code codingScheme="SNOMED-CT" code="81938008" display="Salmonella bovis-morbificans"/>
+		<Code codingScheme="SNOMED-CT" code="64842001" display="Salmonella haardt"/>
+		<Code codingScheme="SNOMED-CT" code="39664003" display="Salmonella kottbus"/>
+		<Code codingScheme="SNOMED-CT" code="81614007" display="Salmonella litchfield"/>
+		<Code codingScheme="SNOMED-CT" code="70605000" display="Salmonella manchester"/>
+		<Code codingScheme="SNOMED-CT" code="20073008" display="Salmonella manhattan"/>
+		<Code codingScheme="SNOMED-CT" code="16820003" display="Salmonella goldcoast"/>
+		<Code codingScheme="SNOMED-CT" code="43640009" display="Salmonella pakistan"/>
+		<Code codingScheme="SNOMED-CT" code="31608001" display="Salmonella gatuni"/>
+		<Code codingScheme="SNOMED-CT" code="45548005" display="Salmonella corvallis"/>
+		<Code codingScheme="SNOMED-CT" code="53814008" display="Salmonella emek"/>
+		<Code codingScheme="SNOMED-CT" code="82957002" display="Salmonella rechovot"/>
+		<Code codingScheme="SNOMED-CT" code="84346001" display="Salmonella bardo"/>
+		<Code codingScheme="SNOMED-CT" code="398364000" display="Salmonella 6;8;-;-"/>
+		<Code codingScheme="SNOMED-CT" code="398364000" display="Salmonella 6,8;rough"/>
+		<Code codingScheme="SNOMED-CT" code="398364000" display="Salmonella 6,8;k;-"/>
+		<Code codingScheme="SNOMED-CT" code="398364000" display="Salmonella group C2, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="115408009" display="Salmonella enterica group D"/>
+		<Code codingScheme="SNOMED-CT" code="40114001" display="Salmonella panama"/>
+		<Code codingScheme="SNOMED-CT" code="5595000" display="Salmonella typhi"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis B3"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis C4"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis C8"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis C14"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis F1"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis F2"/>
+		<Code codingScheme="SNOMED-CT" code="73525009" display="Salmonella enteritidis F3"/>
+		<Code codingScheme="SNOMED-CT" code="34547007" display="Salmonella eastbourne"/>
+		<Code codingScheme="SNOMED-CT" code="40697005" display="Salmonella berta"/>
+		<Code codingScheme="SNOMED-CT" code="62136003" display="Salmonella dublin"/>
+		<Code codingScheme="SNOMED-CT" code="370576005" display="Salmonella gallinarum"/>
+		<Code codingScheme="SNOMED-CT" code="40681000" display="Salmonella goeteborg"/>
+		<Code codingScheme="SNOMED-CT" code="41533007" display="Salmonella israel"/>
+		<Code codingScheme="SNOMED-CT" code="52648003" display="Salmonella tarshyne"/>
+		<Code codingScheme="SNOMED-CT" code="57664002" display="Salmonella durban"/>
+		<Code codingScheme="SNOMED-CT" code="53230005" display="Salmonella goettingen"/>
+		<Code codingScheme="SNOMED-CT" code="2872006" display="Salmonella frintrop"/>
+		<Code codingScheme="SNOMED-CT" code="398334008" display="Salmonella 9,12;I,v;-"/>
+		<Code codingScheme="SNOMED-CT" code="398334008" display="Salmonella 9,12;-;-"/>
+		<Code codingScheme="SNOMED-CT" code="398559003" display="Salmonella group D1, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="5864000" display="Salmonella baildon"/>
+		<Code codingScheme="SNOMED-CT" code="114605008" display="Salmonella irchel"/>
+		<Code codingScheme="SNOMED-CT" code="398348008" display="Salmonella group D2, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="398399001" display="Salmonella group D3, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="115409001" display="Salmonella enterica group E"/>
+		<Code codingScheme="SNOMED-CT" code="60651003" display="Salmonella meleagridis"/>
+		<Code codingScheme="SNOMED-CT" code="398448009" display="Salmonella meleagridis var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="114291002" display="Salmonella meleagridis var 15+, 34+"/>
+		<Code codingScheme="SNOMED-CT" code="37261005" display="Salmonella anatum"/>
+		<Code codingScheme="SNOMED-CT" code="114274001" display="Salmonella anatum var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="114290001" display="Salmonella anatum var 15+, 34+"/>
+		<Code codingScheme="SNOMED-CT" code="22899009" display="Salmonella falkensee"/>
+		<Code codingScheme="SNOMED-CT" code="71768003" display="Salmonella give"/>
+		<Code codingScheme="SNOMED-CT" code="114281008" display="Salmonella give var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="114293004" display="Salmonella give var 15+, 34+"/>
+		<Code codingScheme="SNOMED-CT" code="2291004" display="Salmonella london"/>
+		<Code codingScheme="SNOMED-CT" code="114280009" display="Salmonella london var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="32681008" display="Salmonella orion"/>
+		<Code codingScheme="SNOMED-CT" code="114285004" display="Salmonella orion var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="114294005" display="Salmonella orion var 15+, 34+"/>
+		<Code codingScheme="SNOMED-CT" code="29090008" display="Salmonella zanzibar"/>
+		<Code codingScheme="SNOMED-CT" code="398515007" display="Salmonella zanzibar var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="68916009" display="Salmonella muenster"/>
+		<Code codingScheme="SNOMED-CT" code="114273007" display="Salmonella muenster var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="114289005" display="Salmonella muenster var 15+, 34+"/>
+		<Code codingScheme="SNOMED-CT" code="38658003" display="Salmonella amsterdam"/>
+		<Code codingScheme="SNOMED-CT" code="114277008" display="Salmonella amsterdam var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="62099009" display="Salmonella westhampton"/>
+		<Code codingScheme="SNOMED-CT" code="114278003" display="Salmonella westhampton var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="114292009" display="Salmonella westhampton var 15+, 34+"/>
+		<Code codingScheme="SNOMED-CT" code="91661006" display="Salmonella weltevreden"/>
+		<Code codingScheme="SNOMED-CT" code="114283006" display="Salmonella weltevreden var 15+"/>
+		<Code codingScheme="SNOMED-CT" code="398436006" display="Salmonella 3,10;-;-"/>
+		<Code codingScheme="SNOMED-CT" code="398436006" display="Salmonella group E1, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="33296009" display="Salmonella taksony"/>
+		<Code codingScheme="SNOMED-CT" code="18163008" display="Salmonella senftenberg"/>
+		<Code codingScheme="SNOMED-CT" code="29049005" display="Salmonella niloese"/>
+		<Code codingScheme="SNOMED-CT" code="65463001" display="Salmonella bilu"/>
+		<Code codingScheme="SNOMED-CT" code="114299000" display="Salmonella eastglam"/>
+		<Code codingScheme="SNOMED-CT" code="25767003" display="Salmonella liverpool"/>
+		<Code codingScheme="SNOMED-CT" code="398547002" display="Salmonella group E4, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="398429005" display="Salmonella enterica group F"/>
+		<Code codingScheme="SNOMED-CT" code="312000" display="Salmonella amba"/>
+		<Code codingScheme="SNOMED-CT" code="398429005" display="Salmonella group F, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="115410006" display="Salmonella enterica group G"/>
+		<Code codingScheme="SNOMED-CT" code="64456006" display="Salmonella bristol"/>
+		<Code codingScheme="SNOMED-CT" code="55932005" display="Salmonella cubana"/>
+		<Code codingScheme="SNOMED-CT" code="38788001" display="Salmonella havana"/>
+		<Code codingScheme="SNOMED-CT" code="57101009" display="Salmonella poona"/>
+		<Code codingScheme="SNOMED-CT" code="52400005" display="Salmonella idikan"/>
+		<Code codingScheme="SNOMED-CT" code="24666009" display="Salmonella worthington"/>
+		<Code codingScheme="SNOMED-CT" code="64636003" display="Salmonella telelkebir"/>
+		<Code codingScheme="SNOMED-CT" code="115410006" display="Salmonella 13,22;I;-"/>
+		<Code codingScheme="SNOMED-CT" code="115410006" display="Salmonella 13,23;I;-"/>
+		<Code codingScheme="SNOMED-CT" code="114363007" display="Salmonella nachshonim"/>
+		<Code codingScheme="SNOMED-CT" code="115410006" display="Salmonella group G, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="398492006" display="Salmonella enterica group H"/>
+		<Code codingScheme="SNOMED-CT" code="9818000" display="Salmonella charity"/>
+		<Code codingScheme="SNOMED-CT" code="398492006" display="Salmonella group H, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="398543003" display="Salmonella enterica group I"/>
+		<Code codingScheme="SNOMED-CT" code="67392004" display="Salmonella hvittingfoss"/>
+		<Code codingScheme="SNOMED-CT" code="59598006" display="Salmonella gaminara"/>
+		<Code codingScheme="SNOMED-CT" code="398543003" display="Salmonella 16;I,v;-"/>
+		<Code codingScheme="SNOMED-CT" code="398543003" display="Salmonella group I, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404294002" display="Salmonella enterica group K"/>
+		<Code codingScheme="SNOMED-CT" code="70344002" display="Salmonella cerro"/>
+		<Code codingScheme="SNOMED-CT" code="59107001" display="Salmonella fluntern"/>
+		<Code codingScheme="SNOMED-CT" code="404294002" display="Salmonella group K, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404310008" display="Salmonella enterica group L"/>
+		<Code codingScheme="SNOMED-CT" code="404328005" display="Salmonella IIIb 21:z10:z"/>
+		<Code codingScheme="SNOMED-CT" code="404310008" display="Salmonella group L, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404333009" display="Salmonella enterica group M"/>
+		<Code codingScheme="SNOMED-CT" code="47688008" display="Salmonella telaviv"/>
+		<Code codingScheme="SNOMED-CT" code="25695005" display="Salmonella umbilo"/>
+		<Code codingScheme="SNOMED-CT" code="42391008" display="Salmonella vitkin"/>
+		<Code codingScheme="SNOMED-CT" code="63058007" display="Salmonella halle"/>
+		<Code codingScheme="SNOMED-CT" code="112314009" display="Salmonella pomona"/>
+		<Code codingScheme="SNOMED-CT" code="404333009" display="Salmonella group M, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404341009" display="Salmonella enterica group O"/>
+		<Code codingScheme="SNOMED-CT" code="10343005" display="Salmonella adelaide"/>
+		<Code codingScheme="SNOMED-CT" code="404347008" display="Salmonella alachua"/>
+		<Code codingScheme="SNOMED-CT" code="404341009" display="Salmonella 35 rough"/>
+		<Code codingScheme="SNOMED-CT" code="404341009" display="Salmonella group O, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404366008" display="Salmonella enterica group P"/>
+		<Code codingScheme="SNOMED-CT" code="13411008" display="Salmonella freetown"/>
+		<Code codingScheme="SNOMED-CT" code="404366008" display="Salmonella group P, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404391008" display="Salmonella enterica group Q"/>
+		<Code codingScheme="SNOMED-CT" code="86397006" display="Salmonella anfo"/>
+		<Code codingScheme="SNOMED-CT" code="9479007" display="Salmonella wandsworth"/>
+		<Code codingScheme="SNOMED-CT" code="404391008" display="Salmonella group Q, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404394000" display="Salmonella enterica group R"/>
+		<Code codingScheme="SNOMED-CT" code="22729005" display="Salmonella bukavu"/>
+		<Code codingScheme="SNOMED-CT" code="47508001" display="Salmonella johannesburg"/>
+		<Code codingScheme="SNOMED-CT" code="85424004" display="Salmonella tilene"/>
+		<Code codingScheme="SNOMED-CT" code="114758005" display="Salmonella IV sachsenwald"/>
+		<Code codingScheme="SNOMED-CT" code="404394000" display="Salmonella group R, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404413009" display="Salmonella enterica group S"/>
+		<Code codingScheme="SNOMED-CT" code="114783005" display="Salmonella II negev"/>
+		<Code codingScheme="SNOMED-CT" code="404413009" display="Salmonella group S, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404430006" display="Salmonella enterica group T"/>
+		<Code codingScheme="SNOMED-CT" code="48884009" display="Salmonella weslaco"/>
+		<Code codingScheme="SNOMED-CT" code="114800000" display="Salmonella portbech"/>
+		<Code codingScheme="SNOMED-CT" code="114802008" display="Salmonella II nairobi"/>
+		<Code codingScheme="SNOMED-CT" code="114792008" display="Salmonella II uphill"/>
+		<Code codingScheme="SNOMED-CT" code="404430006" display="Salmonella group T, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404490008" display="Salmonella enterica group X"/>
+		<Code codingScheme="SNOMED-CT" code="47420006" display="Salmonella bere"/>
+		<Code codingScheme="SNOMED-CT" code="114865008" display="Salmonella II khami"/>
+		<Code codingScheme="SNOMED-CT" code="404490008" display="Salmonella group X, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404559008" display="Salmonella enterica group Y"/>
+		<Code codingScheme="SNOMED-CT" code="404562006" display="Salmonella IIIa 48;Z4;Z2"/>
+		<Code codingScheme="SNOMED-CT" code="404576007" display="Salmonella III b;48;Iv;1.5"/>
+		<Code codingScheme="SNOMED-CT" code="114881003" display="Salmonella II hagenbeck"/>
+		<Code codingScheme="SNOMED-CT" code="404559008" display="Salmonella group Y, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="404588009" display="Salmonella enterica group Z"/>
+		<Code codingScheme="SNOMED-CT" code="62024006" display="Salmonella II 50:b:z6"/>
+		<Code codingScheme="SNOMED-CT" code="404588009" display="Salmonella group Z, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="105776002" display="Salmonella enterica group 61"/>
+		<Code codingScheme="SNOMED-CT" code="398538005" display="Salmonella IIIb 61:l,v:z"/>
+		<Code codingScheme="SNOMED-CT" code="105776002" display="Salmonella group 61, unable to serotype"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella species, unable to type"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;e;h;1,2"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;i;l;w"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;r;1,2"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;1,5"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;z10;enx"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;Z4Z23;-"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;k;1,5"/>
+		<Code codingScheme="SNOMED-CT" code="415358000" display="Salmonella rough;b;enx"/>
+	</CodeType>
+</Codes>

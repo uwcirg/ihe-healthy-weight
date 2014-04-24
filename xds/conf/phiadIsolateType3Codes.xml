@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Codes xmlns="http://com.ibm.ihii.configuration.xdscodes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://com.ibm.ihii.configuration.xdscodes XDSCodes.xsd ">
+	<CodeType name="eventCodeList" classScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4">
+		<Code codingScheme="SNOMED-CT" code="55014007" display="Influenza"/>
+		<Code codingScheme="SNOMED-CT" code="407479009" display="Influenza A"/>
+		<Code codingScheme="SNOMED-CT" code="420362005" display="Influenza A H1:N1"/>
+		<Code codingScheme="SNOMED-CT" code="421539000" display="Influenza A H1:N2"/>
+		<Code codingScheme="SNOMED-CT" code="420508007" display="Influenza A H3:N2"/>
+		<Code codingScheme="SNOMED-CT" code="421264001" display="Influenza A H5:N1"/>
+		<Code codingScheme="SNOMED-CT" code="407480007" display="Influenza B"/>
+		<Code codingScheme="SNOMED-CT" code="407482004" display="Influenza C"/>
+	</CodeType>
+</Codes>

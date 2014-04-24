@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<style>
+  .zip {
+    fill: none;
+    stroke: #CCC;
+    stroke-width: .5px;
+  }
+</style>
+</head>
+<body>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/queue.v1.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+
+  <script>
+
+    var width = 2400,
+    height = 2000;
+
+    var path = d3.geo.path();
+
+    var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+    queue()
+    .defer(d3.json, "../../js/us-map.json")
+    .await(ready);
+
+    function ready(error, us) {
+      svg.append("g")
+      .attr("class", "counties")
+      .selectAll("path")
+      .data(topojson.feature(us, us.objects.zip_codes_for_the_usa).features)
+      .enter().append("path")
+      .attr("class", "zip")
+      .attr("data-zip", function(d) {return d.properties.zip; })
+      .attr("data-state", function(d) {return d.properties.state; })
+      .attr("data-name", function(d) {return d.properties.name; })
+      .attr("d", path);
+    }
+
+  </script>
+</body>
+</html>

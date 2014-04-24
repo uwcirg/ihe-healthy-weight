@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>V1 Prototype - IHE 2014</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap-responsive.css" media="screen">
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+    <script src="//code.highcharts.com/highcharts.js"></script>
+    <script src="//code.highcharts.com/highcharts-more.js"></script>
+    <script type="text/javascript" src="../js/regression.js"></script>
+    <script type="text/javascript" src="../js/functions-v1.js"></script>
+   
+    
+</head>
+<body>
+
+<div class="container logo-container">
+    <div class="row">
+        <div class="span12" style="text-align: center">
+            <img src="../img/cdc_logo.png" style="float: left" />
+            <div class="title"><img src="../img/banner.jpg" /></div>
+            <img src="../img/cirg_uw_logo.png" style="float: right" />
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    
+    <div class="row">
+        <div class="span12">
+            
+            <h1>V1 Prototypes</h1>
+
+            <p>These use data from Ian's King County data set. Currently 5,000 records. See also the <a href="index-misc.html">older tests using dummy data set</a>.</p>
+
+            <p>Note: The box plot charts use the following data points (I'm not sure if this is the standard for box plots):</p>
+            <ul>
+                <li>Min value</li>
+                <li>1st quartile</li>
+                <li>Median</li>
+                <li>3rd quartile</li>
+                <li>Max value</li>
+            </ul>
+
+            <br /><br />
+
+            <div id="container1">
+            </div>
+
+
+            <br /><br />
+
+            <div id="container2">
+            </div>
+
+            <br /><br />
+
+            <div id="container3">
+            </div>
+
+            <br /><br />
+            
+            <p>Choose overall x-axis</p>
+            <select id="xAxisSelect">
+                <option>Select...</option>
+                <option value="Gender">Gender</option>
+                <option value="Ethnicity">Ethnicity</option>
+            </select>
+            <p>Choose x-axis category</p>
+            <select id="xCatSelect">
+                <option>Select...</option>                
+                <option value="1">Gender</option>
+                <option value="2">Ethnicity</option>
+            </select>            
+            <div id="container4">
+            </div>
+
+            <br /><br />
+
+            <a href="index.html" class="btn"><i class="icon-chevron-left"></i> Main prototype page</a>
+
+        </div>
+    </div>
+    
+
+</div>
+            
+</body>
+</html>
+

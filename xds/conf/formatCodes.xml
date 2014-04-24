@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : formatCodes.xml
+    Created on : November 16, 2004, 8:25 AM
+    Author     : bill
+    Description:
+        Purpose of the document follows.
+-->
+
+<codes name="Connect-a-thon formatCodes">
+    <code name="PDF/IHE 1.x" value="PDF/IHE 1.x"/>
+    <code name="CDA/IHE 1.0" value="CDA/IHE 1.0"/>
+    <code name="CCR/IHE 0.9" value="CCR/IHE 0.9"/>
+    <code name="HL7/Lab 2.5" value="HL7/Lab 2.5"/>
+</codes>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+    <display-name>UWPHR XDS Interface WebApp</display-name>
+    <description>
+      UWPHR XDS Interface WebApp
+    </description>
+
+
+ <resource-ref>
+      <description>DB Connection</description>
+      <res-ref-name>jdbc/phr</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+  </resource-ref>
+
+    <!-- Define servlets that are included in the example application -->
+
+    <servlet>
+        <servlet-name>VFMFindDocumentsServlet</servlet-name>
+        <servlet-class>edu.washington.cirg.himss.servlet.VFMFindDocumentsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PDQFindPatientsServlet</servlet-name>
+        <servlet-class>edu.washington.cirg.himss.servlet.PDQFindPatientsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FindDocumentsServlet</servlet-name>
+        <servlet-class>edu.washington.cirg.himss.servlet.FindDocumentsServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ProvideDocumentServlet</servlet-name>
+        <servlet-class>edu.washington.cirg.himss.servlet.ProvideDocumentServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>QueryRegistryServlet</servlet-name>
+        <servlet-class>edu.washington.cirg.himss.servlet.QueryRegistryServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RetrieveExternalLinkServlet</servlet-name>
+        <servlet-class>edu.washington.cirg.himss.servlet.RetrieveExternalLinkServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>XDSControllerServlet</servlet-name>
+        <servlet-class>edu.washington.cirg.himss.servlet.XDSControllerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VFMFindDocumentsServlet</servlet-name>
+        <url-pattern>/servlet/VFMFindDocuments</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PDQFindPatientsServlet</servlet-name>
+        <url-pattern>/servlet/PDQFindPatients</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FindDocumentsServlet</servlet-name>
+        <url-pattern>/servlet/FindDocuments</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ProvideDocumentServlet</servlet-name>
+        <url-pattern>/servlet/ProvideDocument</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>QueryRegistryServlet</servlet-name>
+        <url-pattern>/servlet/QueryRegistry</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RetrieveExternalLinkServlet</servlet-name>
+        <url-pattern>/servlet/RetrieveExternalLink</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>XDSControllerServlet</servlet-name>
+        <url-pattern>/servlet/XDSController</url-pattern>
+    </servlet-mapping>
+</web-app>

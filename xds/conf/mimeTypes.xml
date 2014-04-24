@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : formatCodes.xml
+    Created on : October 6, 2004, 10:00 AM
+    Author     : bill
+    Description:
+        Purpose of the document follows.
+-->
+
+<mimeTypes>
+    <mimeType name="application/pdf" value="application/pdf"/>
+    <mimeType name="text/x-cdar1+xml" value="text/x-cdar1+xml"/>
+    <mimeType name="application/x-ccr+xml" value="application/x-ccr+xml"/>
+    <mimeType name="application/x-hl7" value="application/x-hl7"/>
+</mimeTypes>

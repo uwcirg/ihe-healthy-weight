@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : practiceSettingCodes.xml
+    Created on : October 14, 2004, 8:42 AM
+    Author     : bill
+    Description:
+        Acceptable values for XDSDocumentEntry.practiceSettingCode
+-->
+
+<codes name="Connect-a-thon practiceSettingCodes">
+    <code value="Anesthesia" name="Anesthesia"/>
+    <code value="Cardiology" name="Cardiology"/>
+    <code value="Case Manager" name="Case Manager"/>
+    <code value="Chaplain" name="Chaplain"/>
+    <code value="Chemotherapy" name="Chemotherapy"/>
+    <code value="Chiropractic" name="Chiropractic"/>
+    <code value="Critical Care" name="Critical Care"/>
+    <code value="Dentistry" name="Dentistry"/>
+    <code value="Diabetology" name="Diabetology"/>
+    <code value="Dialysis" name="Dialysis"/>
+    <code value="Emergency" name="Emergency"/>
+    <code value="Endocrinology" name="Endocrinology"/>
+    <code value="Gastroenterology" name="Gastroenterology"/>
+    <code value="General Medicine" name="General Medicine"/>
+    <code value="General Surgery" name="General Surgery"/>
+    <code value="Gynecology" name="Gynecology"/>
+    <code value="Labor and Delivery" name="Labor and Delivery"/>
+    <code value="Laboratory" name="Laboratory"/>
+    <code value="Multidisciplinary" name="Multidisciplinary"/>
+    <code value="Neonatal Intensive Care" name="Neonatal Intensive Care"/>
+    <code value="Neurosurgery" name="Neurosurgery"/>
+    <code value="Nursery" name="Nursery"/>
+    <code value="Nursing" name="Nursing"/>
+    <code value="Obstetrics" name="Obstetrics"/>
+    <code value="Occupational Therapy" name="Occupational Therapy"/>
+    <code value="Ophthalmology" name="Ophthalmology"/>
+    <code value="Optometry" name="Optometry"/>
+    <code value="Orthopedics" name="Orthopedics"/>
+    <code value="Otorhinolaryngology" name="Otorhinolaryngology"/>
+    <code value="Pathology" name="Pathology"/>
+    <code value="Perioperative" name="Perioperative"/>
+    <code value="Pharmacacy" name="Pharmacacy"/>
+    <code value="Physical Medicine" name="Physical Medicine"/>
+    <code value="Plastic Surgery" name="Plastic Surgery"/>
+    <code value="Podiatry" name="Podiatry"/>
+    <code value="Psychiatry" name="Psychiatry"/>
+    <code value="Pulmonary" name="Pulmonary"/>
+    <code value="Radiology" name="Radiology"/>
+    <code value="Social Services" name="Social Services"/>
+    <code value="Speech Therapy" name="Speech Therapy"/>
+    <code value="Thyroidology" name="Thyroidology"/>
+    <code value="Tumor Board" name="Tumor Board"/>
+    <code value="Urology" name="Urology"/>
+    <code value="Veterinary Medicine" name="Veterinary Medicine"/>
+</codes>

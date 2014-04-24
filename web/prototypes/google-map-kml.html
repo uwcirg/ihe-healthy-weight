@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false">
+</script>
+
+<script>
+function initialize()
+{
+var mapOptions = {
+    center: new google.maps.LatLng(38,-79.5),
+    zoom:3,
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+ }
+var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+var overlay = new google.maps.KmlLayer('http://staff.washington.edu/mark47/cirg/healthy-measures/data/permits.kml');
+
+overlay.setMap(map);
+google.maps.event.addListener(overlay,'status_changed',function(){
+  document.getElementById('status').innerHTML = overlay.getStatus();
+});
+  }
+google.maps.event.addDomListener(window,'load', initialize);
+</script>
+</head>
+<body>
+<div id="googleMap" style="height:500px;width:600px;"></div>
+<div id="status"></div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Codes xmlns="http://com.ibm.ihii.configuration.xdscodes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://com.ibm.ihii.configuration.xdscodes XDSCodes.xsd ">
+	<CodeType name="eventCodeList" classScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4">
+		<Code codingScheme="SNOMED-CT" code="77352002" display="Shigella"/>
+		<Code codingScheme="SNOMED-CT" code="43612004" display="Shigella dysenteriae"/>
+		<Code codingScheme="SNOMED-CT" code="124995002" display="Shigella dysenteriae 1"/>
+		<Code codingScheme="SNOMED-CT" code="124996001" display="Shigella dysenteriae 2"/>
+		<Code codingScheme="SNOMED-CT" code="124997005" display="Shigella dysenteriae 3"/>
+		<Code codingScheme="SNOMED-CT" code="124998000" display="Shigella dysenteriae 4"/>
+		<Code codingScheme="SNOMED-CT" code="124999008" display="Shigella dysenteriae 5"/>
+		<Code codingScheme="SNOMED-CT" code="125000008" display="Shigella dysenteriae 6"/>
+		<Code codingScheme="SNOMED-CT" code="125001007" display="Shigella dysenteriae 7"/>
+		<Code codingScheme="SNOMED-CT" code="125002000" display="Shigella dysenteriae 8"/>
+		<Code codingScheme="SNOMED-CT" code="125003005" display="Shigella dysenteriae 9"/>
+		<Code codingScheme="SNOMED-CT" code="125004004" display="Shigella dysenteriae 10"/>
+		<Code codingScheme="SNOMED-CT" code="406494001" display="Shigella dysenteriae 11"/>
+		<Code codingScheme="SNOMED-CT" code="406495000" display="Shigella dysenteriae 12"/>
+		<Code codingScheme="SNOMED-CT" code="406496004" display="Shigella dysenteriae 13"/>
+		<Code codingScheme="SNOMED-CT" code="406498003" display="Shigella dysenteriae 14"/>
+		<Code codingScheme="SNOMED-CT" code="406497008" display="Shigella dysenteriae 15"/>
+		<Code codingScheme="SNOMED-CT" code="85729005" display="Shigella flexneri"/>
+		<Code codingScheme="SNOMED-CT" code="125005003" display="Shigella flexneri 1"/>
+		<Code codingScheme="SNOMED-CT" code="125006002" display="Shigella flexneri 1a"/>
+		<Code codingScheme="SNOMED-CT" code="125007006" display="Shigella flexneri 1b"/>
+		<Code codingScheme="SNOMED-CT" code="125008001" display="Shigella flexneri 2"/>
+		<Code codingScheme="SNOMED-CT" code="125009009" display="Shigella flexneri 2a"/>
+		<Code codingScheme="SNOMED-CT" code="125010004" display="Shigella flexneri 2b"/>
+		<Code codingScheme="SNOMED-CT" code="125011000" display="Shigella flexneri 3"/>
+		<Code codingScheme="SNOMED-CT" code="125012007" display="Shigella flexneri 3a"/>
+		<Code codingScheme="SNOMED-CT" code="125013002" display="Shigella flexneri 3b"/>
+		<Code codingScheme="SNOMED-CT" code="125014008" display="Shigella flexneri 3c"/>
+		<Code codingScheme="SNOMED-CT" code="125015009" display="Shigella flexneri 4"/>
+		<Code codingScheme="SNOMED-CT" code="125016005" display="Shigella flexneri 4a"/>
+		<Code codingScheme="SNOMED-CT" code="125017001" display="Shigella flexneri 4b"/>
+		<Code codingScheme="SNOMED-CT" code="125018006" display="Shigella flexneri 5"/>
+		<Code codingScheme="SNOMED-CT" code="125019003" display="Shigella flexneri 6"/>
+		<Code codingScheme="SNOMED-CT" code="125020009" display="Shigella flexneri variant x"/>
+		<Code codingScheme="SNOMED-CT" code="125021008" display="Shigella flexneri variant y"/>
+		<Code codingScheme="SNOMED-CT" code="55462008" display="Shigella boydii"/>
+		<Code codingScheme="SNOMED-CT" code="125022001" display="Shigella boydii 1"/>
+		<Code codingScheme="SNOMED-CT" code="125023006" display="Shigella boydii 2"/>
+		<Code codingScheme="SNOMED-CT" code="125024000" display="Shigella boydii 3"/>
+		<Code codingScheme="SNOMED-CT" code="125025004" display="Shigella boydii 4"/>
+		<Code codingScheme="SNOMED-CT" code="125026003" display="Shigella boydii 5"/>
+		<Code codingScheme="SNOMED-CT" code="125027007" display="Shigella boydii 6"/>
+		<Code codingScheme="SNOMED-CT" code="125029005" display="Shigella boydii 8"/>
+		<Code codingScheme="SNOMED-CT" code="125030000" display="Shigella boydii 9"/>
+		<Code codingScheme="SNOMED-CT" code="125031001" display="Shigella boydii 10"/>
+		<Code codingScheme="SNOMED-CT" code="125032008" display="Shigella boydii 11"/>
+		<Code codingScheme="SNOMED-CT" code="125033003" display="Shigella boydii 12"/>
+		<Code codingScheme="SNOMED-CT" code="125034009" display="Shigella boydii 13"/>
+		<Code codingScheme="SNOMED-CT" code="125035005" display="Shigella boydii 14"/>
+		<Code codingScheme="SNOMED-CT" code="125036006" display="Shigella boydii 15"/>
+		<Code codingScheme="SNOMED-CT" code="406488009" display="Shigella boydii 16"/>
+		<Code codingScheme="SNOMED-CT" code="406489001" display="Shigella boydii 17"/>
+		<Code codingScheme="SNOMED-CT" code="406490005" display="Shigella boydii 18"/>
+		<Code codingScheme="SNOMED-CT" code="406491009" display="Shigella boydii 19"/>
+		<Code codingScheme="SNOMED-CT" code="406492002" display="Shigella boydii 20"/>
+		<Code codingScheme="SNOMED-CT" code="4298009" display="Shigella sonnei"/>
+	</CodeType>
+</Codes>

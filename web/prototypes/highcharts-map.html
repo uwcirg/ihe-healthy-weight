@@ -1,0 +1,230 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Highcharts Example</title>
+        <!-- 1. Add these JavaScript inclusions in the head of your page -->
+        <script src="//code.jquery.com/jquery-1.10.1.js"></script>
+        
+        
+        <script src="//code.highcharts.com/3.0.6/highcharts.js"></script>
+        <script src="//github.highcharts.com/9f3c996/modules/map.src.js"></script>
+        <script src="//github.highcharts.com/9f3c996/modules/data.src.js"></script>
+        <script src="//github.highcharts.com/9f3c996/modules/map-parser.src.js"></script>
+        
+        
+        <!-- 2. Insert the shapes -->
+        <script type="text/javascript" src="../js/map-from-svg.js"></script>
+        
+<script type="text/javascript">
+            var chart,
+                file,
+                $current;
+                
+            // Some maps, like USA and France, have separator lines in between paths. We want to 
+            // identify those and assign to a separate series
+            function identifyLines(data, key) {
+                var lines = [],
+                    i,
+                    point;
+                
+                for (i = 0; i < data.length; i++) {
+                    point = data[i];
+                    if (!point.hasFill) {
+                        lines.push(data.splice(i, 1)[0]);
+                        i -= 1;
+                    }
+                }
+                return lines;
+            }
+            
+            function drawMap(key, file) {
+                var start = +new Date();
+                if (chart) {
+                    chart = chart.destroy();
+                }
+                $('#container').html('');
+                file = file || maps[key];
+                Highcharts.data({
+                    svg: '/maps/file.php?file=' + file,
+                    complete: function (options) {
+
+                        console.log('Loading and parsing map:', new Date() - start, 'ms');
+                        start = +new Date();
+
+                        var data = options.series[0].data,
+                            lines = identifyLines(data, key);
+                            
+                        // For the sake of the demo, add some random values
+                        $.each(data, function (i, point) {
+                            data[i] = {
+                                y: Math.round(Math.random() * 100),
+                                path: point.path,
+                                name: point.name,
+                                hasFill: point.hasFill
+                            };
+                        });
+                        
+                        // Merge the options from the Data module with our own settings
+                        options = Highcharts.merge(options, {
+                            chart : {
+                                renderTo : 'container',
+                                borderWidth : 1,
+                                events: {
+                                    load: function () {
+                                        console.log('Generating chart:', new Date() - start, 'ms');
+                                    }
+                                }
+                            },
+                            
+                            title: {
+                                text: key
+                            },
+                            
+                            legend: {
+                                enabled: false
+                            },
+
+                            mapNavigation: {
+                                enabled: true
+                            },
+                        
+                            plotOptions: {
+                                map: {
+                                    name: 'Random',
+                                    colorRange: {
+                                        from: '#cedae8',
+                                        to: '#1a416d'
+                                    },
+                                    dataLabels: {
+                                        //enabled: true,
+                                        format: '{point.name}',
+                                        backgroundColor: 'rgba(255,255,255,0.4)'
+                                    },
+                                    tooltip: {
+                                        valueSuffix: '%'
+                                    },
+                                    states: {
+                                        hover: {
+                                            color: '#bada55'
+                                        }
+                                    }
+                                }
+                            }
+                        });
+                        
+                        // Add separator lines
+                        if (lines && lines.length) {
+                            options.series.push({
+                                type: 'mapline',
+                                enableMouseTracking: false,
+                                showInLegend: false,
+                                data: lines
+                            }); 
+                        }
+                        
+                        
+                        
+                        // View data
+                        var mapData = [];
+                        $.each(options.series, function (i, series) {
+                            var data = [];
+
+                            mapData[i] = {};
+
+                            $.each(series.data, function (j, point) {
+                                if (!mapData[i].type) {
+                                    if (point.hasFill) {
+                                        mapData[i].type = 'map';
+                                    } else {
+                                        mapData[i].type = 'mapline';
+                                    }
+                                        
+                                }
+                                data[j] = {
+                                    name: point.name,
+                                    path: point.path
+                                };
+                            });
+                            mapData[i].data = Highcharts.Data.prototype.pathToString(data)
+                        });
+                        
+                        mapData = JSON.stringify(mapData, null, "\t");
+                        $('#view-data')
+                            .html('View data (' + Highcharts.numberFormat(mapData.length / 1024, 1, '.') + ' kB)')
+                            .click(function () {
+                                if (chart) {
+                                    chart = chart.destroy();
+                                }
+                                $('#container').html(
+                                    '<div style="font-family:courier new;font-size: 0.8em; color: green;"><pre>' + 
+                                        mapData + '</pre></div>'
+                                );
+                            });
+
+
+
+                        // Create the map
+                        chart = new Highcharts.Map(options);
+                    }
+                });
+                
+                
+                            
+                // Mark the current map
+                if ($current) {
+                    $current.removeClass('current');
+                }
+                if (key) {
+                    $current = $('#' + key + '_');
+                    $current.addClass('current');
+                }
+                
+                // View SVG
+                $('#view-svg')[0].href = file;
+                
+                
+            }
+                
+            
+
+        </script>
+        
+        <style>
+            a, p, label {
+                font-family: Arial, Verdana, sans-serif;
+                font-size: 0.8em;
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                border: 1px solid white;
+                border-radius: 5px;
+                padding: 2px;
+            }
+            
+            
+            #links a:hover {
+                border-color: gray !important;
+            }
+            #links a.current {
+                border: 1px solid silver;
+                background: #bada55;
+            }
+            
+            label {
+                width: 45%;
+                display: inline-block;
+            }
+            input, select {
+                width: 45%;
+            }
+        </style>        
+        
+    </head>
+    <body>
+        <!-- 3. Add the container -->
+        <div id="container" style="width: 800px; height: 550px; float: left; overflow: auto"></div>
+    </body>
+</html>

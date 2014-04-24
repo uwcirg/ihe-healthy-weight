@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : healthCareFacilityTypeCodes.xml
+    Created on : October 14, 2004, 7:30 AM
+    Author     : bill
+    Description:
+       Acceptable values for XDSDocumentEntry.healthCareFacilityTypeCode
+-->
+
+<codes name="Connect-a-thon healthCareFacilityTypeCodes">
+    <code value="Home" name="Home"/>
+    <code value="Assisted Living" name="Assisted Living"/>
+    <code value="Home Health Care" name="Home Health Care"/>
+    <code value="Hospital Setting" name="Hospital Setting"/>
+    <code value="Acute care hospital" name="Acute care hospital"/>
+    <code value="Hospital Unit" name="Hospital Unit"/>
+    <code value="Critical Care Unit" name="Critical Care Unit"/>
+    <code value="Emergency Department" name="Emergency Department"/>
+    <code value="Observation Ward" name="Observation Ward"/>
+    <code value="Rehabilitation hospital" name="Rehabilitation hospital"/>
+    <code value="Nursing Home" name="Nursing Home"/>
+    <code value="Skilled Nursing Facility" name="Skilled Nursing Facility"/>
+    <code value="Outpatient" name="Outpatient"/>
+</codes>

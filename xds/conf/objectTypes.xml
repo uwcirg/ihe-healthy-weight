@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<codes>
+    <code value="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" name="XDSDocumentEntry"/>
+    <code value="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" name="XDSSubmissionSet"/>
+    <code value="urn:uuid:d9d542f3-6cc4-48b6-8870-ea235fbc94c2" name="XDSFolder"/>
+
+</codes>

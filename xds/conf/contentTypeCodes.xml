@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : code.xml.xml
+    Created on : October 13, 2004, 2:51 PM
+    Author     : bill
+    Description:
+        Acceptable values for XDSSubmissionSet.contentTypeCode
+-->
+
+<codes name="Connect-a-thon contentTypeCodes">
+    <code name="Communication" value="Communication"/>
+    <code name="Evaluation and management" value="Evaluation and management"/>
+    <code name="Conference" value="Conference"/>
+    <code name="Case conference" value="Case conference"/>
+    <code name="Consult" value="Consult"/>
+    <code name="Confirmatory consultation" value="Confirmatory consultation"/>
+    <code name="Counseling" value="Counseling"/>
+    <code name="Group counseling" value="Group counseling"/>
+    <code name="Education" value="Education"/>
+    <code name="History and Physical" value="History and Physical"/>
+    <code name="Admission history and physical" value="Admission history and physical"/>
+    <code name="Comprehensive history and physical" value="Comprehensive history and physical"/>
+    <code name="Targeted history and physical" value="Targeted history and physical"/>
+    <code name="Initial evaluation" value="Initial evaluation"/>
+    <code name="Admission evaluation" value="Admission evaluation"/>
+    <code name="Pre-operative evaluation and management" value="Pre-operative evaluation and management"/>
+    <code name="Subsequent evaluation" value="Subsequent evaluation"/>
+    <code name="Summarization of episode" value="Summarization of episode"/>
+    <code name="Transfer summarization" value="Transfer summarization"/>
+    <code name="Discharge summarization" value="Discharge summarization"/>
+    <code name="Summary of death" value="Summary of death"/>
+    <code name="Transfer of care referral" value="Transfer of care referral"/>
+    <code name="Supervisory direction" value="Supervisory direction"/>
+    <code name="Telephone encounter" value="Telephone encounter"/>
+    <code name="Interventional Procedure" value="Interventional Procedure"/>
+    <code name="Operative" value="Operative"/>
+    <code name="Pathology Procedure" value="Pathology Procedure"/>
+    <code name="Autopsy" value="Autopsy"/>
+</codes>

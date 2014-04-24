@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Codes xmlns="http://com.ibm.ihii.configuration.xdscodes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://com.ibm.ihii.configuration.xdscodes XDSCodes.xsd ">
+	<CodeType name="eventCodeList" classScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4">
+                <Code codingScheme="SNOMED-CT" code="55014007" display="Influenza"/>
+                <Code codingScheme="SNOMED-CT" code="407479009" display="Influenza A"/>
+                <Code codingScheme="SNOMED-CT" code="359829002" display="Influenza A avian"/>
+                <Code codingScheme="SNOMED-CT" code="420362005" display="Influenza A avian H1:N1"/>
+                <Code codingScheme="SNOMED-CT" code="421539000" display="Influenza A avian H1:N2"/>
+                <Code codingScheme="SNOMED-CT" code="420508007" display="Influenza A avian H3:N2"/>
+                <Code codingScheme="SNOMED-CT" code="421264001" display="Influenza A avian H5:N1"/>
+                <Code codingScheme="SNOMED-CT" code="359831006" display="Influenza A equine"/>
+                <Code codingScheme="SNOMED-CT" code="359833009" display="Influenza A porcine"/>
+                <Code codingScheme="SNOMED-CT" code="103516006" display="Influenza A Bangkok"/>
+                <Code codingScheme="SNOMED-CT" code="103517002" display="Influenza A England"/>
+                <Code codingScheme="SNOMED-CT" code="103518007" display="Influenza A Hong Kong"/>
+                <Code codingScheme="SNOMED-CT" code="103519004" display="Influenza A Leningrad"/>
+                <Code codingScheme="SNOMED-CT" code="103520005" display="Influenza A Mississippi"/>
+                <Code codingScheme="SNOMED-CT" code="103521009" display="Influenza A Phillipines"/>
+                <Code codingScheme="SNOMED-CT" code="103522002" display="Influenza A Port Chalmers"/>
+                <Code codingScheme="SNOMED-CT" code="103523007" display="Influenza A Texas"/>
+                <Code codingScheme="SNOMED-CT" code="103524001" display="Influenza A Victoria"/>
+                <Code codingScheme="SNOMED-CT" code="407480007" display="Influenza B"/>
+                <Code codingScheme="SNOMED-CT" code="427672003" display="Influenza B Victoria"/>
+                <Code codingScheme="SNOMED-CT" code="426959005" display="Influenza B Yamagata"/>
+                <Code codingScheme="SNOMED-CT" code="407482004" display="Influenza C"/>
+	</CodeType>
+</Codes>

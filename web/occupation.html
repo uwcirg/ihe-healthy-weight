@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IHE 2014 - UW CIRG</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css" media="screen">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+    <script src="//code.highcharts.com/highcharts.js"></script>
+    <script src="//code.highcharts.com/highcharts-more.js"></script>
+    <script type="text/javascript" src="../js/regression.js"></script>
+    <script type="text/javascript" src="../js/functions.js"></script>
+    <script>
+      // Trigger the charts that will appear on this page
+      var pageNumber = "occupation";
+    </script>
+
+  </head>
+  <body>
+  <div class="para-bg"></div>
+
+    <div class="container logo-container">
+      <div class="row">
+        <div class="span12" style="text-align: center">
+          <img src="img/cdc_logo.png" style="float: left" />
+          <div class="title"><img src="img/banner2.jpg" /></div>
+          <img src="img/cirg_uw_logo.png" style="float: right" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid main-container">
+
+    <ul id="mainNav" class="nav nav-tabs"></ul>
+    <div id="loadingImage" class="well"><i class="icon-spinner icon-spin icon-large"></i> Loading visualizations...</div>
+
+      <div class="row-fluid">
+        <div class="span12">
+
+          <div id="container7" class="chart-box"></div>
+
+          <div id="container8" class="chart-box"></div>
+
+          <!-- Occupation boxplot - not in use
+          <div id="container9"></div>
+          <div id="container10"></div>
+          -->
+          <br />
+          <form class="form-inline hide" id="occupationBox">
+            <div class="control-group">
+              <div class="controls">
+                <label for="select1" class="control-label"><strong>Compare Occupation Categories:</strong></label>
+                <select id="occupationSelect" class="span4">
+                  <option value="">Select occupation...</option>
+                  <option value="11">Management Occupations</option>
+                  <option value="13">Business and Financial Operations Occupations</option>
+                  <option value="15">Computer and Mathematical Occupations</option>
+                  <option value="17">Architecture and Engineering Occupations</option>
+                  <option value="19">Life, Physical, and Social Science Occupations</option>
+                  <option value="23">Legal Occupations</option>
+                  <option value="25">Education, Training, and Library Occupations</option>
+                  <option value="27">Arts, Design, Entertainment, Sports, and Media Occupations</option>
+                  <option value="29">Healthcare Practitioners and Technical Occupations</option>
+                  <option value="31">Healthcare Support Occupations</option>
+                  <option value="33">Protective Service Occupations</option>
+                  <option value="35">Food Preparation and Serving Related Occupations</option>
+                  <option value="37">Building and Grounds Cleaning and Maintenance Occupations</option>
+                  <option value="39">Personal Care and Service Occupations</option>
+                  <option value="41">Sales and Related Occupations</option>
+                  <option value="43">Office and Administrative Support Occupations</option>
+                  <option value="45">Farming, Fishing, and Forestry Occupations</option>
+                  <option value="47">Construction and Extraction Occupations</option>
+                  <option value="49">Installation, Maintenance, and Repair Occupations</option>
+                  <option value="51">Production Occupations</option>
+                  <option value="53">Transportation and Material Moving Occupations</option>
+                </select>
+              </div>      
+            </div>
+          </form>
+          <div class="row-fluid">
+            <div class="span6">
+              <div id="container4" class="chart-box"></div>
+            </div>
+            <div class="span6">
+              <div id="container6" class="chart-box"></div>
+            </div>
+          </div>            
+
+          <br /><br />
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </body>
+</html>
+

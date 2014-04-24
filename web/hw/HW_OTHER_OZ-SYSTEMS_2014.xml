@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="WebViewLayout_CDA-HW.xsl"?>
+<!-- Oz Systems - RFD CDA Builder v0.5 -->
+<!-- 2001 NE Green Oaks Blvd, Arlington, TX 76006, United States +1 817-385-0390 -->
+<!-- Healthy Weight (HW) Form -  -  -->
+
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 ../../../00%20Project%20001-IHE/98%20References/00%20CDAr2NormativeWebEditions2005/00%20CDA%20r2%20normativewebedition/CDA_R2_NormativeWebEdition2005/infrastructure/cda/CDA.xsd" xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc">
+  <!-- ******************************************************** CDA Header ******************************************************** -->
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+    <templateId root="2.16.840.1.113883.10.20.3"/> <!-- General US Realm Header -->
+  <templateId root="1.3.6.1.4.1.19376.1.7.3.1.1.15.4.2"/> <!-- NHS Result Report Document -->
+  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.1"/> <!-- Medical Documents -->
+  <templateId root="1.3.6.1.4.1.19376.1.7.3.1.1.24.1"/> <!-- Healthy Weight Summary (HWS)document  -->
+  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.1"/> <!-- Languages Communication -->
+  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.2"/> <!-- Employer and School Contacts -->
+  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/> <!-- Healthcare Providers and Pharmacies -->
+  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.4"/> <!-- Religion -->
+  
+ <id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Healthy Weight Summary (HWS)document"/>
+  <title>Healthy Weight Summary (HWS)document</title>
+  <effectiveTime value="20142701174621-0800"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="en-US"/>
+  <setId root="5c9fe82a-fa8a-4407-9cbf-95854e9c41e7"/>
+  <versionNumber value="1"/>
+  <recordTarget>
+    <patientRole>
+	 <id root="1.3.6.1.4.1.21367.13.50.300021" extension="1.3.6.1.4.1.21367.13.20.115.1"/>
+      <addr use="HP"> <!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->        
+        <streetAddressLine>1979 Milky Way </streetAddressLine>
+        <city>Verona</city>
+        <state>WI</state>
+        <postalCode>53593</postalCode>
+        <country></country> <!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->        
+      </addr>
+      <telecom value="tel:+1-123-456-7896" use="HP"/> <!-- HP is "primary home" from AddressUse 2.16.840.1.113883.5.1119 -->
+      <patient>
+        <name use="L"> <!-- L is "Legal" from EntityNameUse 2.16.840.1.113883.5.45 -->
+          <given></given> 
+          <given qualifier="CL"></given> <!-- CL is "Call me" from EntityNamePartQualifier 2.16.840.1.113883.5.43 -->
+          <family>Doe</family>
+        </name>		
+        <administrativeGenderCode code="M" codeSystem="1.3.6.1.4.1.19376.1.7.3.1.1.13.8.42" displayName="M" codeSystemName="SNOMED"/>
+        <birthTime value="201304030000-0800"/>
+		<raceCode code="2106-3" displayName="White" codeSystem="1.3.6.1.4.1.19376.1.5.3.1.1.1" codeSystemName="LOINC"/>
+        <ethnicGroupCode code="H" displayName="Hispanic" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDC Race and Ethnicity"/>
+		<guardian>
+          <code code="MTH" displayName="Mother" codeSystem="2.16.840.1.113883.5.111" codeSystemName="RoleCode"/>
+          <addr use="HP">
+            <streetAddressLine>1979 Milky Way  </streetAddressLine>
+            <city>Verona</city>
+            <state>WI</state>
+            <postalCode>53593</postalCode>
+            <country></country>
+          </addr>
+          <telecom value="tel:+1-123-456-7896" use="HP"/>
+          <guardianPerson>
+            <!-- Include a maiden name for the mother-->
+            <name>
+              <given>Jeanne</given>
+              <family>Stamm</family>
+              <family qualifier="BR"></family>
+            </name>
+          </guardianPerson>
+        </guardian>
+        <birthplace>
+          <place>
+            <addr>			
+              <state></state>
+              <postalCode></postalCode>
+              <country></country>
+            </addr>
+          </place>
+        </birthplace>
+		<!--<telecom value="" use="HP"/>
+		<religiousAffliationCode nullFlavor="UNK"/>-->
+	</patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20142701174621-0800"/>
+    <assignedAuthor>
+       <id root="1.3.6.1.4.1.21367.13.50.300021"/>  
+		<assignedPerson>
+			<name>
+			  <given>Antonio</given> 
+			  <family>Jesus</family>
+			</name>
+		</assignedPerson>
+		<!--<representedOrganization>
+		   <addr>
+				<streetAddressLine></streetAddressLine>
+				<city></city>			    
+				<state></state>
+				<postalCode></postalCode>
+				<country></country>
+			</addr>			
+		</representedOrganization>-->
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id nullFlavor="UNK"/>
+        <name nullFlavor="UNK"/>
+        <addr  nullFlavor="UNK"/>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+		  <participant typeCode="IND">
+			  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.2"/>
+			  <time>
+				<low value="20142701174621"/>
+				<high value="20142701174621"/>
+			  </time>
+			  <associatedEntity classCode='CON'>
+				<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+				<code code="SCHOOL" codeSystem="1.3.5.1.4.1.19376.1.5.3.3" codeSystemName="IHERoleCode"/> <!-- EMPLOYER|SCHOOL|AFFILIATED -->
+				<associatedPerson>
+					<name>
+					  <given>Schimano</given> 
+					  <family>Alberta</family>
+					</name>
+				</associatedPerson>
+				<scopingOrganization>
+				  <name>…</name>
+				   <addr>
+						<streetAddressLine>test address</streetAddressLine>
+						<city>test city</city>			    
+						<state>CA</state>
+						<postalCode>test zip</postalCode>
+						<country>test country</country>
+					</addr>		
+				</scopingOrganization>
+			  </associatedEntity>
+			</participant>    
+  
+  <documentationOf nullFlavor="UNK" typeCode="DOC">
+    <serviceEvent classCode="PCPR" moodCode="EVN">
+      <effectiveTime>
+        <low value="20142701174621"/>
+        <high value="20142701174621"/>
+      </effectiveTime>
+    </serviceEvent>
+  </documentationOf>  
+
+  
+  <!-- ******************************************************** CDA Results ******************************************************** -->
+<component>	
+  <structuredBody>
+		<component>				
+			<!-- Insurance -->		
+			<section>
+					<templateId root="2.16.840.1.113883.10.20.1.9"/>
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.5.3.7"/>
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+					<code code="48768-6" displayName="PAYMENT SOURCES" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<text>
+					  63
+					</text>   
+					<entry>
+						<!-- Required if known Coverage Entry element -->
+						<act classCode="ACT" moodCode="DEF">
+						  <templateId root="2.16.840.1.113883.10.20.1.20"/>
+						  <templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.17"/>
+						  <id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+						  <code code="35525-4" displayName="FINANCING AND INSURANCE" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/> <!-- Insurance type -->
+						  <statusCode code="completed"/>
+						  <entryRelationship typeCode="COMP">
+								<sequenceNumber value="63"/>
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="35525-4" displayName="FINANCING AND INSURANCE" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/> <!-- Insurance type -->
+									<value xsi:type="CE" code="63"/>									
+								</observation>					 							
+						  </entryRelationship>
+						</act>		
+					</entry>
+					<entry>
+						<act classCode="ACT" moodCode="EVN">
+						  <code/>						
+						  <participant typeCode="COV"><!-- member -->
+							<participantRole classCode="PAT">
+							  <id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							  <code code="123" displayName="AXA Insurance" codeSystem="2.16.840.1.113883.5.111" codeSystemName="RoleCode"/> <!-- Insurance company  -->
+							  <playingEntity><name>AXA Insurance</name></playingEntity>
+							</participantRole>
+						  </participant>						
+						</act>						
+					</entry>
+			</section>				
+		</component>			
+		<component>				
+			<!-- Highest Level of Education Received by patient  -->			
+			<section>
+					<!-- SVS 2.16.840.1.113883.5.1077 -->
+					<templateId root="1.3.6.1.4.1.19376.1.7.3.1.3.24.2"/>
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+					<code code="29762-2" displayName="SOCIAL HISTORY" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<text>Elementary School</text>					
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="11379-5" displayName="ELEM" codeSystem="2.16.840.1.113883.5.1077" codeSystemName="EducationLevel"/>
+						</observation>
+					</entry>					
+			</section>
+		</component>			
+		<component>	
+			<!-- Income level of the household -->			
+			<section>
+					<!-- Range or Actual Number -->
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.16.1"/>
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+					<code code="29762-2" displayName="SOCIAL HISTORY" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+					<text></text>
+					<entry>
+						<observation classCode="OBS" moodCode="EVN">				
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="224168007" displayName="Household income (observable entity)" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+						</observation>
+					</entry>					
+			</section>
+		</component>			
+		<component>	
+			<!-- Dietary Behaviors -->			
+			<section>
+					<!-- SVS not found 1.3.6.1.4.1.19376.1.7.3.1.1.2 3.8.8 -->
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.16.1"/>
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+					<code code="308658001" displayName="Abnormal eating pattern (finding)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="SNOMED-CT"/>
+					<text>Abnormal eating pattern (finding)</text>
+					
+					<!-- frequency of Sugar-Sweetened Beverages(SSB) intake (fruit-flavored drinks, sports drinks)  -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="61550-0" displayName="How often did you drink sports drinks or fruit flavored drinks with sugar (such as Kool-Aid, Hi-C, lemonade, or cranberry cocktail) in past 30days" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<value xsi:type="CE" code="1"/>
+						</observation>
+					</entry>					
+			
+					<!-- frequency of Sugar-Sweetened Beverages - Soft Drinks  -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="61473-5" displayName="How often did you drink regular, carbonated soda or soft drinks that contain sugar in past 30D" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<value xsi:type="CE" code="3"/>
+						</observation>
+					</entry>					
+						
+					<!-- frequency of Water intake -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="226354008" displayName="DietaryBehaviors WaterIntake" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="6"/>
+						</observation>
+					</entry>				
+					
+					<!-- frequency of Vegetable Intake -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="226448008" displayName="DietaryBehaviors Vegetable Intake" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="1"/>
+						</observation>
+					</entry>				
+					
+					<!-- frequency of Whole fruit intake (non-juice) -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="61551-8" displayName="How often did you eat fruit in past 30 days" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="1"/>
+						</observation>
+					</entry>				
+					
+					<!-- frequency of 100% Fruit intake (juice) -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="61468-5" displayName="How often did you drink 100 % fruit juice, such as orange, mango, apple, and grape juices in past 30 days" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="1"/>
+						</observation>
+					</entry>		
+
+					<!-- Fast Food -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="68510-7" displayName="How many times a week did you eat fast food or snacks or pizza in past 7 days" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="8"/>
+						</observation>
+					</entry>						
+										
+					<!-- Currently Breastfeeding -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="169741004" displayName="Breast fed(finding)" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="false"/>
+						</observation>
+					</entry>		
+
+					<!-- Consuming Infant Formula -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="226408000" displayName="Baby milk intake(observable entity)" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="3"/>
+						</observation>
+					</entry>					
+										
+					<!-- Nursing difficulty -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="50845008" displayName="Nursing difficulty(finding)" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="false"/>
+						</observation>
+					</entry>											
+										
+					<!-- Physical Activity Behavior -->
+					<!-- SVS not found 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.9 -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="28323-4" displayName="Physical Activity Behavior" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="423675002"/>
+						</observation>
+					</entry>			
+
+					<!-- Exercise Duration -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="55411-3" displayName="Exercise Duration" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<value xsi:type="CE" code="5"/>
+						</observation>
+					</entry>	
+					
+					<!-- Frequency of Physical Activity -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="68130003" displayName="Frequency Physical Activity" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="1"/>
+						</observation>
+					</entry>						
+					
+					<!-- Frequency of Screen Time Weekdays -->
+					<!-- Code System OID: 2.16.840.1.114222.4.5.232  Code System Name: PHIN Questions Code System Code: PH_PHINQuestions_CDC -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="INV888" displayName="Frequency Screen WeekDays" codeSystem="2.16.840.1.114222.4.5.232" codeSystemName="PH_PHINQuestions_CDC"/>
+							<value xsi:type="CE" code="Hour"/>
+						</observation>
+					</entry>							
+
+					<!-- Frequency of Screen Time Weekends -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="INV889" displayName="Frequency Screen Weekends" codeSystem="2.16.840.1.114222.4.5.232" codeSystemName="PH_PHINQuestions_CDC"/>
+							<value xsi:type="CE" code="Hour"/>
+						</observation>
+					</entry>			
+
+					<!-- Frequency of Screen Time VideoGames Weekdays -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="INV890" displayName="FrequencyScreen VG WeekDays" codeSystem="2.16.840.1.114222.4.5.232" codeSystemName="PH_PHINQuestions_CDC"/>
+							<value xsi:type="CE" code="Hour"/>
+						</observation>
+					</entry>							
+
+					<!-- Frequency of Screen Time VideoGames Weekends -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="INV891" displayName="FrequencyScreen VG Weekends" codeSystem="2.16.840.1.114222.4.5.232" codeSystemName="PH_PHINQuestions_CDC"/>
+							<value xsi:type="CE" code="Hour"/>
+						</observation>
+					</entry>
+					
+					<!-- Bed Time At what time do you usually go to bed -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="65551-4" displayName="Bet Time" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<value xsi:type="CE" code="Hour"/>
+						</observation>
+					</entry>	
+
+					<!-- Hours of Sleep per Night -->
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.4"/>					
+							<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>
+							<code code="65968-0" displayName="Hours of Sleepper per Night" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<value xsi:type="CE" code="Hour"/>
+						</observation>
+					</entry>
+					
+					<!-- readiness to change one weight-related behavior  -->				
+					<entry>																			
+						<!-- 426116001 Readiness for enhanced nutrition (finding) -->
+						<observation classCode="OBS" moodCode="EVN">						
+							<code code="427362008" displayName="Readiness to Change 2" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="1"/>
+						</observation>		
+					</entry>								
+					<entry>																			
+						<!-- 427448000 Readiness for enhanced sleep pattern (finding) -->
+						<observation classCode="OBS" moodCode="EVN">						
+							<code code="427448000" displayName="Readiness to Change 3" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="1"/>
+						</observation>	
+					</entry>
+
+					<entry>																			
+						<!-- Pregnancy Status -->
+						<observation classCode="OBS" moodCode="EVN">						
+							<code code="11449-6" displayName="Pregnancy Status" codeSystem="2.16.840.1.113883.12.162" codeSystemName="SNOMED-CT"/>
+							<value xsi:type="CE" code="false"/>
+						</observation>	
+					</entry>					
+			</section>			
+		</component>			
+		<component>				
+			<!-- Measurements and Assessments -->
+			<section>
+					<!-- Patient Height -->
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.5.3.2"/>		
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.1"/>							
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">		
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="3137-7" displayName="Patient Height" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="100"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>
+
+					<!-- Patient Weight -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">	
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="3141-9" displayName="Patient Weight" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="200"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>					
+					
+					<!-- Patient Waist -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="56114-2" displayName="Patient Waist" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="300"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>	
+
+					<!-- Systolic Blood Pressure -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="8480-6" displayName="Systolic blood pressure" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="400"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>
+					
+					<!-- Diastolic Blood Pressure -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="8462-4" displayName="Diastolic blood pressure" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="500"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>		
+
+					<!-- Heart rate Encounter maximum -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="55422-0" displayName="Heart rate Encounter maximum" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="600"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>	
+
+					<!-- Skin fold thickness Waist -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="8355-0" displayName="Skin fold thickness Waist" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="800"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>	
+
+					<!-- Skin fold thickness Triceps -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="8354-3" displayName="Skin fold thickness Triceps" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="900"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>	
+
+					<!-- Skin fold thickness Thigh -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="8353-5" displayName="Skin fold thickness Thigh" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="1000"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>	
+
+					<!-- Percentage of body fat Measured -->					
+					<entry>
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="41982-0" displayName="Percentage of body fat Measured" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="700"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>					
+					
+			</section>
+		</component>			
+		<component>	
+			<!-- Active problems including, but not limited to Conditions that affect weight -->
+			<section>
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.5.3.4"/>		
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>					
+					
+					<!-- Pregnancy -->				
+					<!-- SVS 1.3.6.1.4.1.19376.1.7.3.1.1.13.8.95 -->
+					<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.13.5"/>												
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="11449-6" displayName="Pregnancy Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="false"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>
+
+					<!-- Breast Feeding  -->				
+					<!-- SVS BFDR 1.3.6.1.4.1.19376.1.7.3.1.1.13.8.41  -->
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.14  -->
+					<!--<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>																
+						<act classCode="ACT" moodCode="EVN">			
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>  Active Problems Section  
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="169750002" displayName="Mother currently breast-feeding (finding)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="SNOMED-CT"/>
+									<value xsi:type="CE" code="false"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>-->						
+					
+					<!-- Prematurity  -->				
+					<!-- SVS 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.3  -->
+					<!--<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">	
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>  Active Problems Section  
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Is child Premature" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="true"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>	-->				
+					
+					<!-- Disabilities (e.g.,amputation)  Disabilities-->				
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.4 -->
+					<!--<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>  Active Problems Section  						
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Disabilities (e.g.,amputation)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="true"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>-->						
+					
+					<!-- Downs, other special growth  Downs Other Special Growth-->				
+					<!-- SVS BFDR 1.3.6.1.4.1.19376.1.7.3.1.1.13.8.61 -->
+					<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">		
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/> <!-- Active Problems Section  -->						
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="254264002" displayName="Partial trisomy 21 in Down's syndrome (disorder)" codeSystem="2.16.840.1.113883.6.1091" codeSystemName="SNOMED-CT"/>
+									<value xsi:type="CE" code="254264002"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>									
+					
+					<!-- Other Weight Influencing Disorders  Other Weight Disorders-->				
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.10 -->
+					<!--<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">		
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>  Active Problems Section  
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Other Weight Influencing Disorders" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="true"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>-->						
+
+					<!-- Co-morbidities - Diabetes  Diabetes-->	
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.5 -->
+					<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>				
+						<act classCode="ACT" moodCode="EVN">	
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/> <!-- Active Problems Section  -->												
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="44054006" displayName="Diabetes mellitus type 2" codeSystem="2.16.840.1.113883.6.109" codeSystemName="SNOMED-CT"/>
+									<value xsi:type="CE" code="44054006"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>						
+
+					<!-- Co-morbidities - Hypertension  Hypertension-->	
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.6 -->
+					<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">	
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/> <!-- Active Problems Section  -->												
+							<code/>		
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="59621000" displayName="Essential hypertension (disorder)" codeSystem="2.16.840.1.113883.6.109" codeSystemName="SNOMED-CT"/>
+									<value xsi:type="CE" code="59621000"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>	
+
+					<!-- Co-morbidities - Hypercholesterolemia  Hypercholesterolemia-->	
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.15 -->
+					<!--<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">	
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>  Active Problems Section  												
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Hypercholesterolemia" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="true"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>-->				
+
+					<!-- Co-morbidities - Other Weight Influencing comorbidities  Other-->	
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.11 -->
+					<!--<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>  Active Problems Section  												
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Other Comorbidities" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="true"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>-->	
+					
+					<!-- Weight Influencing Problems  Weight Influencing Problems-->	
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.12 -->
+					<!--<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.6"/>												
+						<act classCode="ACT" moodCode="EVN">	
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/>  Active Problems Section  												
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Weight Influencing Problems" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code=""/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>-->						
+					
+					<!-- Influencing Family History  Influencing Family History-->	
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.13 -->
+					<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.15"/>												
+						<act classCode="ACT" moodCode="EVN">		
+							<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.5.2"/> <!-- Active Problems Section  -->						
+							<code/>								
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="160362009" displayName="Influencing Family History" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="160362009"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>								
+			</section>			 
+		</component>	
+		<component>						
+			<!-- Healthy Weight Medications -->
+			<section>
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.19"/>		
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>							
+					
+					<!-- Influencing Medications -->	
+					<!-- SVS HW RXNORM Codes -->
+					<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.21"/>												
+						<act classCode="ACT" moodCode="EVN">			
+							<code/>									
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Influencing Medications" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="123"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>
+					<entry>
+						<!-- Weight Management Medications -->	
+						<!-- SVS HW RXNORM Codes -->
+						<act classCode="ACT" moodCode="EVN">	
+							<code/>									
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="123" displayName="Management Medications" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+									<value xsi:type="CE" code="123"/>
+								</observation>
+							</entryRelationship>						
+						</act>					
+					</entry>						
+			</section>			 
+		</component>			
+		<component>						
+			<!-- Procedures and Interventions -->
+			<section>
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.4.19"/>		
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>							
+					
+					<!-- Procedures to support Weight   Procedures Support Weight-->	
+					<!-- SVS HW 1.3.6.1.4.1.19376.1.7.3.1.1.23.8.7 -->
+					<entry>
+						<templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.13.2.11"/>												
+						<act classCode="ACT" moodCode="EVN">		
+							<code/>									
+							<entryRelationship typeCode="COMP" inversionInd="true">
+								<observation classCode="OBS" moodCode="EVN">
+									<code code="416576000" displayName="Carbohydrate counting (regime/therapy)" codeSystem="2.16.840.1.113883.6.1" codeSystemName="SNOMED-CT"/>
+									<value xsi:type="CE" code="416576000"/>
+								</observation>
+							</entryRelationship>						
+						</act>				
+					</entry>
+			</section>			 
+		</component>
+		<component>			
+			<!-- Goals -->		
+			<section>
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.31"/>		
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>		
+			</section>			 
+		</component>			
+		<component>			
+			<!-- Healthy Weight Care Plan -->		
+			<section>
+					<templateId root="1.3.6.1.4.1.19376.1.7.3.1.3.24.2"/>		
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>		
+			</section>			 
+		</component>	
+		<component>			
+			<!-- Coded Results -->		
+			<section>
+					<templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.28"/>		
+					<id root="53fe4f95-5e93-4e25-9e08-4ac926e8b1cd"/>		
+					<entry>	
+						<observation classCode="OBS" moodCode="EVN">					
+							<code code="1556-0" displayName="Fasting glucose [Mass/volume] in Capillary blood" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+							<value xsi:type="CE" code="1556-0"/>
+						</observation>
+					</entry>					
+			</section>			 
+		</component>		
+	</structuredBody>
+  </component>
+  <!-- ******************************************************** CDA Results ******************************************************** -->
+</ClinicalDocument>
